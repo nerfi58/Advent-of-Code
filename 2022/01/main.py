@@ -26,8 +26,8 @@ class Elf:
 
 def main():
     elf = Elf(os.path.join(DIR, 'input.txt'))
-    print(f"Part 1 solution: {elf.part1}")
-    print(f"Part 2 solution: {elf.part2}")
+    print(f'Part 1 solution: {elf.part1}')
+    print(f'Part 2 solution: {elf.part2}')
 
 
 if __name__ == '__main__':
